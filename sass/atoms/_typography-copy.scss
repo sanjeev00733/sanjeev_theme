@@ -2,14 +2,6 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 
-blockquote {
-	@include font-size(1.25);
-}
-
-address {
-	@include font-size(0.9375);
-}
-
 pre {
 	font-family: $font__pre;
 	@include font-size(0.9375);
@@ -19,14 +11,6 @@ pre {
 code, kbd, tt, var {
 	font-family: $font__code;
 	@include font-size(0.9375);
-}
-
-abbr, acronym {
-	cursor: help;
-}
-
-mark, ins {
-	text-decoration: none;
 }
 
 big {
