@@ -1,3 +1,19 @@
-@import "_elements.scss";
-@import "_lists.scss";
-@import "_tables.scss";
+@import "global";
+
+@import "typography-headings";
+@import "typography-copy";
+
+@import "text-inline";
+@import "text-links";
+@import "text-lists";
+@import "text-block";
+
+@import "document-headings";
+@import "document-sections";
+@import "document-embeds";
+
+@import "tables";
+
+@import "form-misc";
+@import "form-buttons";
+@import "form-inputs";
